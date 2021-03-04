@@ -7,4 +7,10 @@ server:
 spring:
   application:
     name: consumer
-
+  cloud:
+    loadbalancer:
+      ribbon:
+        enabled: true
+ribbon:
+  eureka:
+    enabled: true
