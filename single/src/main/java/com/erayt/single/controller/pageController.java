@@ -38,9 +38,9 @@ public class pageController {
 		List<User> users = new ArrayList<>();
 		for (int i = 0; i < 10; i++) {
 			User u = new User();
-			u.setId((long) i);
-			u.setName("javaboy:" + i);
-			u.setAddress("深圳:" + i);
+			u.setId(i);
+			u.setUserName("javaboy:" + i);
+			u.setPassword("深圳:" + i);
 			users.add(u);
 		}
 		model.addAttribute("users", users);
