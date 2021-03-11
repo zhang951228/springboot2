@@ -2,6 +2,8 @@
 spring:
   application:
     name: single
+  profiles:
+    active:  dev
 
   thymeleaf:
     cache: false
@@ -9,3 +11,7 @@ spring:
     mode: HTML5
 server:
   port: 8087
+
+logging:
+  file:
+    path: ./single/

@@ -58,4 +58,17 @@ public class XreportController {
 		}
 		return stringBuilder.toString();
 	}
+
+	@RequestMapping("logs/{filter}")
+	public String fileLog(@PathVariable(value = "filter") String filter){
+		StringBuilder stringBuilder = new StringBuilder();
+		try {
+			log.info("开始分析xreport日志1。"+filter);
+			stringBuilder = xreportService.fileLog(filter);
+		} catch (IOException e) {
+			log.error("",e);
+			e.printStackTrace();
+		}
+		return stringBuilder.toString();
+	}
 }

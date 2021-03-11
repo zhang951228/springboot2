@@ -23,6 +23,13 @@ public class ExceptionHandle {
 		return e.getMessage();
 	}
 
+	@ExceptionHandler(RuntimeException.class)
+	@ResponseBody
+	public String handler(RuntimeException e) {
+		log.error(e.getMessage(), e);
+		return e.getMessage();
+	}
+
 	@ExceptionHandler(MethodArgumentNotValidException.class)
 	@ResponseBody
 	public String handler(MethodArgumentNotValidException e) {
