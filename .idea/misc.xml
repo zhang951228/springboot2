@@ -26,6 +26,7 @@
         <option value="$PROJECT_DIR$/producer/pom.xml" />
         <option value="$PROJECT_DIR$/zeureka/pom.xml" />
         <option value="$PROJECT_DIR$/single/pom.xml" />
+        <option value="$PROJECT_DIR$/dbconnector/pom.xml" />
       </list>
     </option>
   </component>

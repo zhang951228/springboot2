@@ -9,12 +9,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="single" />
         <module name="producer" />
+        <module name="dbconnector" />
         <module name="zeureka" />
         <module name="consumer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="consumer" target="1.8" />
+      <module name="dbconnector" target="1.8" />
       <module name="producer" target="1.8" />
       <module name="single" target="1.8" />
       <module name="zeureka" target="1.8" />
@@ -23,6 +25,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="consumer" options="-parameters" />
+      <module name="dbconnector" options="-parameters" />
       <module name="producer" options="-parameters" />
       <module name="single" options="-parameters" />
       <module name="zeureka" options="-parameters" />
