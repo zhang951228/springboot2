@@ -12,7 +12,7 @@
 	<artifactId>dbconnector</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>dbconnector</name>
-	<description>测试数据链接</description>
+	<description>测试数据链接 </description>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
