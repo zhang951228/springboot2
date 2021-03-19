@@ -17,6 +17,7 @@
     <bytecodeTargetLevel>
       <module name="consumer" target="1.8" />
       <module name="dbconnector" target="1.8" />
+      <module name="downjar" target="1.5" />
       <module name="producer" target="1.8" />
       <module name="single" target="1.8" />
       <module name="zeureka" target="1.8" />
