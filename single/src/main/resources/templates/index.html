@@ -8,7 +8,7 @@
 <table border="1">
 	<div style="height: 100%;width: 100%">
 		<h1 style="width: 100%;align-content: center">欢迎光临</h1>
-		<form th:action="">
+		<form >
 			<ul>
 				<li>用户名：<input th:type="input" name="username" style="width: 20vw"></li>
 				<li>密　码：<input th:type="password" name="password" style="width: 20vw"></li>
@@ -36,6 +36,10 @@
 
 		<hr>
 		<hr>
+
+        <form action="download" method="post" enctype="multipart/form-data">
+            <input type="submit" value="下载文件">
+        </form>
 	</div>
 </table>
 </body>
