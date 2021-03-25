@@ -1,8 +1,0 @@
-spring:
-  datasource:
-    driver-class-name: oracle.jdbc.driver.OracleDriver
-    schema: classpath:db/schema-oracle.sql
-    data: classpath:db/data-oracle.sql
-    url: jdbc:oracle:thin:@127.0.0.1:1521:orcl
-    username: xreport
-    password: xreport

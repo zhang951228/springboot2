@@ -60,7 +60,7 @@ public class pageController {
 	public String show(Model model){
 		model.addAttribute("uid","123456789");
 		model.addAttribute("name","Jerry");
-		return "index";
+		return "redirect:/main";
 	}
 
 }

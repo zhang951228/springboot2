@@ -2,6 +2,7 @@ package com.erayt.single.service.impl;
 
 import com.erayt.single.domain.User;
 import com.erayt.single.event.OnRegistrationCompleteEvent;
+import com.erayt.single.repository.UserMapper;
 import com.erayt.single.service.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,10 +19,15 @@ public class UserServiceImpl extends BaseServiceImpl<User> implements UserServic
 
 	@Autowired
 	ApplicationEventPublisher eventPublisher;
+	@Autowired
+    UserMapper userMapper;
 
 	@Override
 	public User queryById(Integer id) {
-		return super.queryById(id);
+	    log.info("进入queryById");
+        User user = userMapper.selectById(id);
+        return user;
+        //return super.queryById(id);
 	}
 
 	@Override

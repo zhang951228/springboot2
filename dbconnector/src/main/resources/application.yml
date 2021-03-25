@@ -1,4 +1,3 @@
-
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
@@ -9,15 +8,9 @@ spring:
       idle-timeout: 600000  #10 min
       max-lifetime: 1800000 #30 min
   application:
-    name: single
+    name: dbConnector
   profiles:
-    active:  dev
-
-  thymeleaf:
-    cache: false
-    encoding: UTF-8
-server:
-  port: 8087
+    active: dev
 
 #mybatis
 mybatis:
@@ -27,7 +20,6 @@ mybatis:
 
 #logging logback
 logging:
-  file:
-    path: ./single/
-    name: single1
   config: classpath:logback-spring.xml
+  file:
+    name: eraytDbConnector

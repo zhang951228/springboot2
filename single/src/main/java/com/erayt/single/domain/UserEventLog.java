@@ -6,6 +6,7 @@ import java.util.Date;
 /**
  * @Auther: Z151
  * @Date: 2021/3/11 14:31
+ * 触发用户时间时的传递 POJO
  */
 public class UserEventLog implements Serializable {
 	private static final long serialVersionUID = 1L;
