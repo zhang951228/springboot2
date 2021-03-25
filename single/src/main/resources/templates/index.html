@@ -40,6 +40,15 @@
         <form action="download" method="post" enctype="multipart/form-data">
             <input type="submit" value="下载文件">
         </form>
+
+        ----测试上传文件----<br>
+        <form action="upload" method="post" enctype="multipart/form-data">
+            单文件:<input type="file" name="headImager"/>
+            多文件:<input type="file" name="photos" multiple/>
+            <input name="userName" type="text">
+            <input type="submit" value="上传文件">
+        </form>
+
 	</div>
 </table>
 </body>
