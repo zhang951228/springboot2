@@ -1,4 +1,3 @@
-
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
@@ -31,3 +30,11 @@ logging:
     path: ./single/
     name: single1
   config: classpath:logback-spring.xml
+
+# 系统相关，
+erayt:
+  demo:
+    userName: visit
+    password: 123456
+  system:
+    tokenType: 1   #:2:启动header 中的token校验。
