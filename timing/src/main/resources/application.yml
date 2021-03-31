@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@localhost:1521:orcl
+    username: XREPORT
+    password: xreport
+    hikari:
+      idle-timeout: 600000  #10 min
+      max-lifetime: 1800000 #30 min
+  application:
+    name: schedule
+
+erayt:
+  mergeFilePath: /merge/
+  importFilePath: /ZGAB/

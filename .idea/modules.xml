@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/analysis/analysis.iml" filepath="$PROJECT_DIR$/analysis/analysis.iml" />
       <module fileurl="file://$PROJECT_DIR$/consumer/consumer.iml" filepath="$PROJECT_DIR$/consumer/consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/dbconnector/dbconnector.iml" filepath="$PROJECT_DIR$/dbconnector/dbconnector.iml" />
       <module fileurl="file://$PROJECT_DIR$/producer/producer.iml" filepath="$PROJECT_DIR$/producer/producer.iml" />
+      <module fileurl="file://D:/ideaworkspace/reflect/reflect.iml" filepath="D:/ideaworkspace/reflect/reflect.iml" />
       <module fileurl="file://$PROJECT_DIR$/single/single.iml" filepath="$PROJECT_DIR$/single/single.iml" />
+      <module fileurl="file://$PROJECT_DIR$/timing/timing.iml" filepath="$PROJECT_DIR$/timing/timing.iml" />
       <module fileurl="file://$PROJECT_DIR$/zeureka/zeureka.iml" filepath="$PROJECT_DIR$/zeureka/zeureka.iml" />
     </modules>
   </component>
