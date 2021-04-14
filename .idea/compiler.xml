@@ -27,6 +27,7 @@
       <module name="single" target="1.8" />
       <module name="springtiming" target="1.8" />
       <module name="timing" target="1.8" />
+      <module name="xreport-batch-exector" target="1.8" />
       <module name="zeureka" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -39,6 +40,7 @@
       <module name="single" options="-parameters" />
       <module name="springtiming" options="-parameters" />
       <module name="timing" options="-parameters" />
+      <module name="xreport-batch-exector" options="-parameters" />
       <module name="zeureka" options="-parameters" />
     </option>
   </component>

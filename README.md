@@ -9,5 +9,7 @@
 Node:项目统一utf-8编码。
 
 Mybatis-plus 官方文档：https://baomidou.com/guide/quick-start.html#%E9%85%8D%E7%BD%AE
+redis下载路径：https://github.com/tporadowski/redis/releases
+redis启动教程：https://www.runoob.com/redis/redis-install.html
 
 
