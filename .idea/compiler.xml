@@ -14,6 +14,7 @@
         <module name="timing" />
         <module name="producer" />
         <module name="analysis" />
+        <module name="doexcel" />
         <module name="consumer" />
       </profile>
     </annotationProcessing>
@@ -21,6 +22,7 @@
       <module name="analysis" target="1.8" />
       <module name="consumer" target="1.8" />
       <module name="dbconnector" target="1.8" />
+      <module name="doexcel" target="8" />
       <module name="downjar" target="1.5" />
       <module name="producer" target="1.8" />
       <module name="reflect" target="8" />

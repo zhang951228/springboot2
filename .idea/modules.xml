@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/analysis/analysis.iml" filepath="$PROJECT_DIR$/analysis/analysis.iml" />
       <module fileurl="file://$PROJECT_DIR$/consumer/consumer.iml" filepath="$PROJECT_DIR$/consumer/consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/dbconnector/dbconnector.iml" filepath="$PROJECT_DIR$/dbconnector/dbconnector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/doexcel/doexcel.iml" filepath="$PROJECT_DIR$/doexcel/doexcel.iml" />
       <module fileurl="file://$PROJECT_DIR$/producer/producer.iml" filepath="$PROJECT_DIR$/producer/producer.iml" />
       <module fileurl="file://D:/ideaworkspace/reflect/reflect.iml" filepath="D:/ideaworkspace/reflect/reflect.iml" />
       <module fileurl="file://$PROJECT_DIR$/single/single.iml" filepath="$PROJECT_DIR$/single/single.iml" />
